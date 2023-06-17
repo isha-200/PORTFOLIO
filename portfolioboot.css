@@ -1,0 +1,24 @@
+.nav-link:hover{
+    color: rgba(64, 180, 79, 0.788) !important;
+}
+.dropdown-item:hover{
+    color: rgba(64, 180, 79, 0.788) !important;
+}
+.navbar{
+    box-shadow: 3px 3px 5px grey !important;
+}
+.navbar{
+    box-shadow: 3px 3px 5px grey !important;
+}
+.card{
+    transition: all .3s !important;
+}
+.card:hover{
+    transform: scale(1.15) !important;
+}
+.size{
+    transition: all 0.3s !important;
+}
+.size:hover{
+    transform: scale(1.15) !important;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="i.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutboot.html">ABOUT ME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="servicesboot.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item fw-bold" href="web designboot.html">WEB DESIGNING</a>
+              </li>
+              <li>
+                <a class="dropdown-item fw-bold" href="graphicboot.html">GRAPHIC DESIGNING</a>
+              </li>
+              <li><a class="dropdown-item fw-bold" href="bootstrap.html">BOOTSTRAP</a></li>
+              <li><a class="dropdown-item fw-bold" href="wordpressboot.html">WORDPRESS</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="portfolioboot.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactboot.html">CONTACT</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success fw-bold" type="submit">
+            Call Now: 7986876979
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img
+          src="https://images.unsplash.com/photo-1587496713823-c1426efbc4e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0">
+
+          <h1 class=" hlo display-1 fw-bold text-capitalize mt-5 pt-5" style="color: white;">
+            BOOTSTRAP
+          </h1>
+          <p class="text-white fw-bold fs-5">Bootstrap is a popular front-end web development framework that provides pre-designed HTML, CSS, and JavaScript components for creating responsive and mobile-first web pages and applications.</p>
+          <button type="button" class="btn btn-success px-4 py-2 fs-5 mt-5"><a href="#about"
+              class="text-white text-decoration-none">CLICK ME</a>
+
+        </div>
+      </div>
+    </div>
+    <section id="about" class="about section-padding">
+      <h2 class="my-5 text-center text-success fw-bold">BOOTSTRAP</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img">
+              <img src="https://www.drupal.org/files/project-images/bootstrap-stack.png" alt=""
+                class="img-fluid mt-5" />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>What is Bootstrap? <br />How it works?</h2>
+              <p>
+                <li>
+                  Bootstrap is a front-end development framework that enable developer and designer to quickly build
+                  fully responsive websites.
+                </li>
+                <li>
+                  It provides a set of pre-designed UI components and layout templates that can be easily customized to
+                  create modern and visually appealing websites.
+                </li>
+                <li>
+                  Bootstrap also includes features such as improved grid system, enhanced typography, and optimized
+                  CSS and JavaScript code for faster page loading.
+                </li>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark py-5 mt-2" id="scroll">
+      <div class="container text-light text-center">
+        <p class="display-5 mb-3">Lorem, ipsum dolor.</p>
+        <small class="text-white-50">&copy; copyright by lorem ipsum. All rights reserved.</small>
+        <div class="foot text-center mt-4">
+          <img src="icons8-linkedin-circled-50 (2).png" alt="" class="size mx-2" style="width: 30px;">
+          <img src="icons8-instagram-48.png" alt="" class="size mx-2" style="width: 30px;">
+          <img src="icons8-whatsapp-50.png" alt="" class="size mx-2" style="width: 30px;">
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

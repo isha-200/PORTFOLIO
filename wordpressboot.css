@@ -1,0 +1,26 @@
+.nav-link:hover{
+    color: rgba(64, 180, 79, 0.788) !important;
+}
+.dropdown-item:hover{
+    color: rgba(64, 180, 79, 0.788) !important;
+}
+.navbar{
+    box-shadow: 3px 3px 5px grey !important;
+}
+.navbar{
+    box-shadow: 3px 3px 5px grey !important;
+}
+.c-item{
+    height: 680px;
+}
+.c-img{
+    height: 680px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.size{
+    transition: all 0.3s !important;
+}
+.size:hover{
+    transform: scale(1.15) !important;
+}
